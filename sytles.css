@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 50px;
+    margin-top: 30%;
+    margin-bottom: 40px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}

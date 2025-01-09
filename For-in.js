@@ -16,5 +16,8 @@ const user = {name: "Alex", age: 41, occupation: "Developer", country: "Brazil"}
 
 
 for (const key in user) {
-    console.log(`${key} : ${user[key]}`)
+    console.log(key)//somente a chave
+    console.log(key + user[key])
+    console.log(`${key} : ${user[key]}`)// chave mais valor
+    console.log(key + user[key])
 }
